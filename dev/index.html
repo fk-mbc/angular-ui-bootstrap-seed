@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-    Author     : Florian Kittel
+    Author     : fk-mbc
 -->
 <html ng-app="app">
     <head>
@@ -13,11 +13,21 @@
     </head>
     <body>
     <body ng-controller="AppCtrl">
-
-        <h1>Ui Bootstrap</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="jumbotron">
+                    <h1>Hello, world!</h1>
+                    <p>It could be so easy, if i would know what i'm doing.</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+            <div class="row">
+                This is your empty Angular Bootstrap template.
+            </div>
+        </div>
         <script src="components/angular/angular.js" type="text/javascript"></script>
         <script src="components/angular-bootstrap/ui-bootstrap.min.js" type="text/javascript"></script>
-    <!-- Custom App Javascript files -->
-    <script src="app/app.min.js" type="text/javascript"></script>
-</body>
+        <!-- Custom App Javascript files -->
+        <script src="app/app.min.js" type="text/javascript"></script>
+    </body>
 </html>

@@ -15,7 +15,10 @@ Preconfigured grunt development environment with:
 * dev folder
 * installation batch file
 * uninstall batch file
-* stat batch file
+* start batch file
+
+## Requirements
+You need a local and global installation of nodejs, grunt and bower.
 
 ## How to start
 1. download the repository and put all files in a local folder
@@ -23,3 +26,6 @@ Preconfigured grunt development environment with:
 3. take your favorit editor (NetBeans, Atom, Intellij, Whatever) and create a project depending on the new folder
 4. start developing a new awsome app in the dev folder -> all the changes
 will immediately displayed in your browser
+
+The next time you want to start the environment you simple execute the start.bat or
+type "grunt dev" in a console window inside your folder.
