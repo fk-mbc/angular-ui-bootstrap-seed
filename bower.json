@@ -1,0 +1,25 @@
+{
+  "name": "Angular Bootstrap",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Florian Kittel <florian.kittel@cgm.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "client_dev",
+    "node_modules",
+    "htdocs/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.14.3",
+    "bootstrap": "~3.3.6",
+    "Roboto": "https://google-fonts.azurewebsites.net/googleFonts/Roboto?family=Roboto:400,900,700italic,700,500,500italic,400italic,300italic,100,100italic,300,900italic"
+  }
+}
