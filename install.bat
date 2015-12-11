@@ -12,6 +12,7 @@ echo Installing npm dependencies
 call npm install
 
 ::echo Installing bower dependencies
+mv bower.bowerrc .bowerrc
 mkdir htdocs
 call bower install
 
