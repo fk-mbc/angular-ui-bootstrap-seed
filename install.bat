@@ -12,7 +12,7 @@ echo Installing npm dependencies
 call npm install
 
 ::echo Installing bower dependencies
-mv bower.bowerrc .bowerrc
+copy bower.bowerrc .bowerrc
 mkdir htdocs
 call bower install
 
@@ -23,4 +23,4 @@ echo starting the client application...
 :END
 endlocal
 @pause
-start
+start.bat
