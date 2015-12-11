@@ -18,7 +18,7 @@ Preconfigured grunt development environment with:
 * start batch file
 
 ## Requirements
-You need a local and global installation of nodejs, grunt and bower.
+You need a global installation of nodejs, grunt and bower.
 
 ## How to start
 1. download the repository and put all files in a local folder
@@ -27,5 +27,5 @@ You need a local and global installation of nodejs, grunt and bower.
 4. start developing a new awsome app in the dev folder -> all the changes
 will immediately displayed in your browser
 
-The next time you want to start the environment you simple execute the start.bat or
-type "grunt dev" in a console window inside your folder.
+The next time you starting the environment by simply executing the start.bat or
+typing "grunt dev" in a console window.
